@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails ILM: development" uuid="599bc70a-43eb-466f-bc31-6806ef4543df">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ILM_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails ILM: test" uuid="614f99bc-5c10-4c9b-af6e-ab88d36bcdc3">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ILM_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails ILM: production" uuid="20b3bf58-cb26-4812-9dad-511982c452c4">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ILM_production</jdbc-url>
+    </data-source>
+  </component>
+</project>
