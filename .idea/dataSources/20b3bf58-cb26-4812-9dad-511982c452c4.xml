@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Rails ILM: production">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.8">
+    <root id="1">
+      <ServerVersion>9.2.23</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="ILM_production">
+      <ObjectId>16386</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12924</ObjectId>
+    </database>
+    <database id="4" parent="1" name="ILM_development">
+      <ObjectId>16385</ObjectId>
+    </database>
+    <database id="5" parent="1" name="ILM_test">
+      <ObjectId>16387</ObjectId>
+    </database>
+    <role id="6" parent="1" name="pguser">
+      <ObjectId>16384</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="7" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="8" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2018-04-14.11:48:20.919</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="9" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="pg_temp_1">
+      <ObjectId>11194</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11195</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="information_schema">
+      <ObjectId>12381</ObjectId>
+    </schema>
+  </database-model>
+</dataSource>
